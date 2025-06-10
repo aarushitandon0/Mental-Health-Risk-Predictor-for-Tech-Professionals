@@ -5,3 +5,5 @@ scikit-learn
 joblib
 tensorflow-cpu==2.13.0
 pycountry
+fix: valid pip-free requirements.txt
+
