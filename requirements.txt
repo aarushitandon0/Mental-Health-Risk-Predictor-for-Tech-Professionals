@@ -1,7 +1,7 @@
-pip install streamlit
-pip install pandas
-pip install numpy
-pip installjoblib
-pip install tensorflow
-pip install scikit-learn
-pip install pycountry
+streamlit
+pandas
+numpy
+joblib
+tensorflow
+scikit-learn
+pycountry
