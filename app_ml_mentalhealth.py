@@ -3,9 +3,11 @@ import numpy as np
 import pandas as pd
 import joblib
 import pycountry
+from tensorflow.keras.models import load_model
+
 
 # --- Load Model and Column Names ---
-model = joblib.load("mental_health_nn_model.pkl")
+model = load_model("mental_health_nn_model.h5")
 model_columns = joblib.load("model_columns.pkl")
 
 # Load one-hot encoded column template (should be one row with all 112 cols)
