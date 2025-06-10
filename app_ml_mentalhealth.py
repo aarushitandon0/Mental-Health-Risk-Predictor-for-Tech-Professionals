@@ -7,7 +7,7 @@ from tensorflow.keras.models import load_model
 
 
 # --- Load Model and Column Names ---
-model = load_model("mental_health_nn_model.h5")
+model = load_model("mental_health_nn_model.keras")
 model_columns = joblib.load("model_columns.pkl")
 
 # Load one-hot encoded column template (should be one row with all 112 cols)
