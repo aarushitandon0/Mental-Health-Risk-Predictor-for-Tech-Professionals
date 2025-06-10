@@ -5,11 +5,11 @@ import joblib
 import pycountry
 
 # --- Load Model and Column Names ---
-model = joblib.load(r"C:\Users\AARUSHI TANDON\Downloads\mental_health_nn_model.pkl")
-model_columns = joblib.load(r"C:\Users\AARUSHI TANDON\Downloads\model_columns.pkl")
+model = joblib.load("mental_health_nn_model.pkl")
+model_columns = joblib.load("model_columns.pkl")
 
 # Load one-hot encoded column template (should be one row with all 112 cols)
-template = pd.read_csv(r"C:\Users\AARUSHI TANDON\Downloads\survey.csv")
+template = pd.read_csv("survey.csv")
 template = template.iloc[0:1]
 
 st.title("🧠 Mental Health Risk Predictor")
