@@ -2,10 +2,6 @@
 
 A Streamlit-based web app that predicts the likelihood of someone needing mental health support based on their workplace environment, personal experiences, and demographics — trained on the OSMI Mental Health in Tech dataset.
 
-## Demo
-
-Try the live app here: [https://your-username-mindscope.streamlit.app](https://your-username-mindscope.streamlit.app)
-
 ## Features
 
 - Simple UI built with Streamlit
